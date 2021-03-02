@@ -41,11 +41,11 @@ For use with **CLion**
 
 ### Code
 
-`src` : Sourcecode just belongs here
-`settings.cmake` : Change project build settings, include libraries
-`src/pins.h` : Define all used pins in here
-`src/main.cpp` : The main execution point (can be changed in settings.cmake)
-`compile.sh` : compiles the program into `elf`,`bin` and `uf2` for drag and drop
-`flash.sh` : compiles & flashes the attached pico 
-`out` : contains the binaries after compiling
+- `src` : Sourcecode just belongs here
+- `settings.cmake` : Change project build settings, include libraries
+- `src/pins.h` : Define all used pins in here
+- `src/main.cpp` : The main execution point (can be changed in settings.cmake)
+- `compile.sh` : compiles the program into `elf`,`bin` and `uf2` for drag and drop
+- `flash.sh` : compiles & flashes the attached pico 
+- `out` : contains the binaries after compiling
 
