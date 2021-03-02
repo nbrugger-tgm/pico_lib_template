@@ -7,9 +7,14 @@ set(CMAKE_CXX_STANDARD 17)
 IF(${RUN_LOCAL})
     set(PICO_PLATFORM host)
 ENDIF()
+
+
 pico_sdk_init()
+
+file(GLOB SRC_FOLDER CONFIGURE_DEPENDS "src/*.h" "src/*.cpp")
 add_executable(
     ${name}
+	${SRC_FOLDER}
     ${mainFile}
 )
 pico_set_program_name(${name} ${display_name})
