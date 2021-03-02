@@ -29,6 +29,8 @@ cd build
 cmake ..
 make
 cp picotool /usr/bin/picotool
+cd ..
+rm picotool -r
 ```
 
 ## Project Structure
