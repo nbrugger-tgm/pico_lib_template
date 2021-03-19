@@ -1,1 +1,1 @@
-{"commitizen": {"name": "cz_conventional_commits", "version": "0.0.0", "tag_format": "v$major.$minor.$patch$prerelease", "update_changelog_on_bump": true, "version_files": ["CMakeLists.txt", "README.md"]}}
+{"commitizen": {"name": "cz_conventional_commits", "version": "1.0.0", "tag_format": "v$major.$minor.$patch$prerelease", "update_changelog_on_bump": true, "version_files": ["CMakeLists.txt", "README.md"]}}
