@@ -17,9 +17,9 @@
 
 ## Project Structure
 
-For use with **CLion**
 
-### WSL
+
+### WSL (For use with **CLion**)
 * `SETTINGS > Build, Execution, Deployment > CMake > Debug`
   * Environment: *PICO_SDK_PATH=/lib/mcu/pico*
 
