@@ -1,0 +1,17 @@
+add_library(${lib_name}
+        mylib/adder.cpp
+        mylib/adder.h
+)
+target_link_libraries(${lib_name}
+        #hardware_i2c
+        #hardware_adc
+        #hardware_irq
+        #hardware_rtc
+        #hardware_spi
+        #hardware_timer
+        #hardware_uart
+        #pico_multicore
+        #pico_time
+        #tinyusb_device
+        #tinyusb_host
+)
