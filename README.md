@@ -7,6 +7,32 @@
 
 [here](SETUP.md)
 
+## Usage
+
+To use the compiled library you have 2 options
+
+### Using the `.a` file
+
+This uses a fixed version
+
+1. Download the latest precompiled `libmylib.a` from github releases
+2. Place it inside a `libs` folder in your project
+3. use `find_library(my_external_lib mylib libs)`
+   1. `libs` must be the name of the folder containing the `a` file
+   2. `mylib` must be the name bevore the `.a` EXCLUDING the `lib` prefix
+   3. `my_external_lib` is an custom name for later use choose whatever you feel like
+4. Use `my_external_lib` in `target_link_libraries(...)`
+
+### Sourcecode inclusion
+
+This version can easily be changed with `git checkout <version>`
+
+1. Clone the repo
+2. Add `add_subdirectory(/path/to/my/lib)` (the path can also be relative)
+3. Use `mylib` in `link_target_link_libraries(...)`
+
+
+
 ## Commands
 
 | Command | Description |
